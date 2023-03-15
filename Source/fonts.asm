@@ -2,7 +2,7 @@
 ; Acorn BBC Mode 4 (320 x 256 Pixels, 2  Colours)
 
 ; Charset data...
-; 14 images, 8 bytes per image, total size is 112 bytes.
+; 38 images, 8 bytes per image, total size is 296 bytes.
 
 .char_sprite_0
     EQUB $7E ; .######.
