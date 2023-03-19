@@ -100,8 +100,8 @@ EQUB $6F, $6E, $6D, $6C, $6B, $6A, $69, $68
     CMP #32             ; end of swing ?
     BCS going_right     ; yes so change direction
     
-    INC vineDirection   ; 10 cycles
-    BPL continue        ; 2 INC's take 20 cycles whereas this takes 5 + 2 = 7
+    INC vineDirection   ; 5 cycles
+    BPL continue        ; 2 INC's take 10 cycles whereas this takes 5 + 2 = 7 cycles
 
 .going_right
     DEC vineDirection
